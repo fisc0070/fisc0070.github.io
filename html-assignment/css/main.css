@@ -1,0 +1,42 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.site-title {
+    font-size: 30px;
+    color: #1F363D;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: #40798C;
+}
+
+ul {
+    list-style-type: square;
+}
+
+header {
+    margin-bottom: 60px;
+    background-color: #eee;
+}
+
+footer {
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+#my-image {
+    box-shadow: -1px 2px 20px -1px black;
+    width: 20%;
+}
+
+ul li:nth-child(2n+1) {
+    background-color: #eee;
+}
