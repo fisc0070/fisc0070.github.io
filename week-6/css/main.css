@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-decoration: underline;
+}
+nav ul {
+  list-style: none;
+}
+nav ul a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.orange-link {
+  background-color: darkslategray;
+  color: orange;
+  text-decoration: none;
+}
+
+#treatofweek {
+  background-color: orange;
+}
+
+.large-text {
+  font-size: 20px;
+}
+
+h3+ul {
+  border: 1px solid black;
+}
+
+[class="large-text"] {
+  text-transform: uppercase;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a :visited {
+  background-color: orange;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+
+}
+
+nav ul a:active {}
+
+aside ul li:first-child {
+  font-weight: bold;
+}
+
+dl ul li:nth-child(2n+1) {
+  background-color: white;
+}
